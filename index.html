@@ -1,36 +1,58 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
    <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width .initial-scale=1.0">
-   <title>Anasayfa</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Googleum!</title>
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <!--Navber - Start -->
-   <header>
-      <nav>
-         <ul>
-            <li>
-               <a href="index.html">Ana sayfa</a>
-            </li>
-            <li>
-               <a href="aboutus.html">Hakkımızda</a>
-            </li>
-            <li>
-               <a href="contact.html">İletişim</a>
-            </li>
-         </ul>
-      </nav>
-   </header>
-   <!--Navber - End -->
-
-   <!--Content - Start-->
-   <!--Content - End-->
-
-   <!--Footer - Start-->
-   <!--Footer - End-->
-
-
-
+  
+ <div class="kutu">
+   <img src="image/google.jpg" alt="">
+ </div>
+ <div class="grikutu">
+   <div class="pa">
+      <p style="margin: 0%;">Search the web using Google!</p>
+   </div>
+   <form action="/arama" method="get" class="search-form">
+      <input  type="text" name="q" placeholder="" class="search-input">
+      
+      <!-- Butonları alt alta getirmek için ayrı bir div içine alıyoruz -->
+      
+  </form>
+  <div class="button-group">
+   <button type="submit" class="search-button">Google Search</button>
+   <!-- İkinci bir buton da eklenebilir -->
+    <button type="submit" class="search-button">I'm feeling lucky</button> 
+</div>
+ </div>
+ <div class="butun">
+ <table class="footer-table">
+   <tbody>
+       <tr>
+           <td class="col-1" style="text-align: center;">
+               <p style="text-align: center;">Special Searches</p>
+               <a  href="#">Stanford Search</a><br>
+               <a href="#">Linux Search</a>
+           </td>
+           <td class="col-2" style="text-align: center;">
+               <a href="#">Help!</a><br>
+               <a href="#">About Google!</a><br>
+               <a href="#">Company Info</a><br>
+               <a href="#">Google! Logos</a>
+           </td>
+           <td class="col-3" style="text-align: center;">
+               <p>Get Google! <br>updates monthly:</p>
+               <input type="text" placeholder="your e-mail">
+               <br>
+               <input type="button" value="Subscribe">
+               <a href="#">Archive</a>
+           </td>
+       </tr>
+   </tbody>
+</table>
+</div>
+</div>
 </body>
 </html>
